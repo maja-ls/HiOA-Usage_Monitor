@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bruksmonitor</string>
+    <string name="action_settings">Innstillinger</string>
+    <string name="count_text_week">Uke</string>
+    <string name="options_refresh">Oppdater</string>
+    <string name="options_select_dates">Velg dato</string>
+    <string name="options_select_today">Gå til i dag</string>
+    <string name="options_show_avg">Gjennomsnitt På/Av</string>
+    <string name="tab_tittel_day">Dag</string>
+    <string name="tab_tittel_month">Måned</string>
+    <string name="tab_tittel_week">Uke</string>
+    <string name="tab_tittel_year">År</string>
+    <string name="text_uses_day">Antall bruk registrert for</string>
+    <string name="text_uses_month">Antall bruk registrert for</string>
+    <string name="text_uses_week">Antall bruk registrert for</string>
+    <string name="text_uses_year">Antall bruk registrert for</string>
+    <string name="title_day_graph"># bruk/Time</string>
+    <string name="title_month_graph"># bruk/Dag</string>
+    <string name="title_week_graph"># bruk/Dag</string>
+    <string name="title_year_graph"># bruk/Måned</string>
+    <string name="prefs_large_toast_text">Vis stor rød beskjed</string>
+    <string name="prefs_show_toast_text">Vis antall opplåsninger for gjeldende dag når låser opp telefonen</string>
+    <string name="action_about">Om</string>
+    <string name="om_knapp">Ok</string>
+    <string name="om_tittel">Om denne appen</string>
+    <string name="om_tekst">
+        Kodet av:
+        \nMaja Sæterstøen
+        \nStudent nr. s198515
+        \n\n\nDenne appen registrerer hver gang du låser opp telefonen din.
+        \nI innstillingene kan du stille inn om du ønsker å få et varsel om hvor mange ganger du har låst opp telefonen så langt i løpet av en dag når du låser opp telefonen.
+        \n\nGrafen vil vise bruk for den valgte tidsperioden.
+        \n\n\nHvis du skrur på grafen som sammenligner med gjennomsnittet så vil den vise snittet for den gjeldende x-verdien i den valgte taben.
+        \n\nDette betyr at i uke-taben så vil gjennomsnittet for alle mandager, tirsdager, etc., vises.
+        \nHvis man er i måned-taben, så vil gjennomsnittet for den 1. i alle måneder, 2. i alle måneder, etc., vises.
+    </string>
+    <string name="options_hide_avg_toast">Sammenligning med gjennomsnitt deaktivert</string>
+    <string name="options_show_avg_toast">Sammenligning med gjennomsnitt aktivert</string>
+</resources>

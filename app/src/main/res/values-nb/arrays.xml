@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="months">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>Mars</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </array>
+
+    <array name="shortmonths">
+        <item>Jan.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Apr.</item>
+        <item>Mai</item>
+        <item>Jun.</item>
+        <item>Jul.</item>
+        <item>Aug.</item>
+        <item>Sep.</item>
+        <item>Okt.</item>
+        <item>Nov.</item>
+        <item>Des.</item>
+    </array>
+
+    <array name="weekdays">
+        <item>Man.</item>
+        <item>Tir.</item>
+        <item>Ons.</item>
+        <item>Tor.</item>
+        <item>Fre.</item>
+        <item>Lør.</item>
+        <item>Søn.</item>
+
+    </array>
+</resources>

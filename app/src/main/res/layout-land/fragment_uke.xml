@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/windowBackground"
+    tools:context="com.example.s198515_mappe3.fragmenter.UkeFragment">
+
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/windowBackground_light"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/fragment_padding_side"
+                android:paddingEnd="@dimen/fragment_padding_side"
+                android:text="@string/text_uses_week"
+                android:textSize="15sp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/fragment_padding_side"
+                android:paddingEnd="@dimen/fragment_padding_side"
+                android:textSize="15sp"
+                android:id="@+id/text_use_on_week"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/fragment_padding_side"
+                android:paddingEnd="@dimen/fragment_padding_side"
+                android:paddingTop="@dimen/fragment_padding_updown"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/text_use_on_week_count"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/graph_week" />
+
+
+</LinearLayout>
